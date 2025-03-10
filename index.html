@@ -25,86 +25,83 @@ src="https://www.facebook.com/tr?id=783724027151745&ev=PageView&noscript=1"
 
     
     <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #3b0948;
-}
-
-.landing {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('background.jpg');
-    background-size: 125% auto;  /* Controla la proporción (ancho al 100%, altura automática) */
-    background-position: center top; /* Ajusta la parte visible de la imagen */
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-    .button {
-        position: absolute;
-        text-align: center;
-        width: 200px;
-        padding: 15px 30px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        background: linear-gradient(45deg, #ff0077, #ffcc00);
-        border: none;
-        border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        text-decoration: none;
-    }
-
-    .button:hover {
-        background: linear-gradient(45deg, #ffcc00, #ff0077);
-        color: white;
-    }
-
-
-        
-
-        
-/* Ajustes para pantallas grandes (escritorio) */
-@media (min-width: 1024px) {
-    .landing {
-        background-attachment: fixed;
-    }
-
-    .button {
-        top: 65%;
-        font-size: 22px;
-        padding: 20px 40px;
-        width: 220px;
-    }
-}
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(90deg, #004d26, #008000);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(0, 77, 38, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 128, 0, 0.5);
+        }
+        header img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .promo {
+            margin: 20px 0;
+        }
+        .promo img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 128, 0, 0.5);
+        }
+        .cta {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        form button {
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #00b140, #007d30);
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 128, 0, 0.5);
+        }
+        form button:hover {
+            background: linear-gradient(90deg, #007d30, #00b140);
+            box-shadow: 0 6px 10px rgba(0, 128, 0, 0.8);
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ccc;
+        }
+        footer a {
+            color: #00b140;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
-    <script type="text/javascript" src="https://ferozo.host/RAJpErolOuRgtBDMxrVqyWDHf3YZFIxRDfhNTqdiSGcYh_uweBdNLsYeUwoMqUZFU-EFZnd1k46OjLTT8F8_2g=="></script>
 </head>
 <body>
-    <div class="landing">
-        <a href="https://wa.link/k9lcdu" class="button">¡Aplica ahora!</a>
-            <h1 color="#FFFFFF">
-    TOCA EL BOTON PARA OBTENER MAS INFORMACION
-</h1>
+    <div class="container">
+
+        <div class="promo">
+            <img src="background.jpg" alt="Promoción Duplica tu Depósito">
+        </div>
+        <form>
+<a href="https://sportsbet.bet.ar/registrarse?utm_source=jonyregistrodirecto&utm_brandaffiliate=jonyregistrodirecto" style="text-decoration: none;">
+            <button type="button">Duplica tu carga ahora!</button>
+        </form>
+</a>
+        <footer>
+            <p>Consulta términos y condiciones en <a href="https://sportsbet.bet.ar/promociones">Promociones</a></p>
+        </footer>
     </div>
-
-
-    
 </body>
 </html>

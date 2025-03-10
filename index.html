@@ -74,11 +74,26 @@ body, html {
         color: white;
     }
 
-/* Ajustes específicos para móviles */
+        /* Footer con la misma imagen */
+.footer {
+    width: 100vw;
+    height: 200px; /* Ajusta la altura según necesites */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+        
+/* Ajustes para móviles */
 @media (max-width: 768px) {
     .landing {
-        background-size: contain; /* Evita cortes en la imagen */
+        background-size: contain;
         background-position: top center;
+    }
+
+    .footer {
+        background-size: contain;
+        height: 150px; /* Ajusta la altura en móviles */
     }
 }
 /* Ajustes para pantallas grandes (escritorio) */

@@ -35,22 +35,22 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #3b0948; /* Color de fondo violeta */
+    background-color: #3b0948;
 }
 
 .landing {
     position: relative;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center center;
+    background-size: 70% auto;  /* Controla la proporción (ancho al 100%, altura automática) */
+    background-position: center top; /* Ajusta la parte visible de la imagen */
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
+
 
 
     .button {

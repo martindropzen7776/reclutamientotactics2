@@ -40,8 +40,8 @@ body, html {
 
 .landing {
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center center;
@@ -77,10 +77,10 @@ body, html {
 /* Ajustes específicos para móviles */
 @media (max-width: 768px) {
     .landing {
-        background-position: top center; /* Ajusta el foco de la imagen */
+        background-size: contain; /* Evita cortes en la imagen */
+        background-position: top center;
     }
 }
-
 /* Ajustes para pantallas grandes (escritorio) */
 @media (min-width: 1024px) {
     .landing {
